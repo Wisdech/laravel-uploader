@@ -1,0 +1,30 @@
+{
+    "name": "wisdech/laravel-uploader",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wisdech\\Uploader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Beijing Wisdech Technology Co., Ltd."
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.27",
+        "illuminate/http": "^11.27",
+        "illuminate/database": "^11.27"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wisdech\\Uploader\\UploaderProvider"
+            ]
+        }
+    }
+}
