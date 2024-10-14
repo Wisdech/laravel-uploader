@@ -1,7 +1,6 @@
 {
     "name": "wisdech/laravel-uploader",
     "description": "富文本编辑器文件上传 Laravel 实现",
-    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
